@@ -1,0 +1,25 @@
+[
+	{ "keys": ["super+alt+shift+a"], "command": "alignment" },
+	{ "keys": ["super+alt+ctrl+a"], "command": "alignment" },
+
+	{ "keys": ["super+shift+alt+u"], "command": "UrlQuoteSelection" },
+
+	// A macro command created by Zander Martineau
+	{ "keys": ["super+shift+alt+s"], "command": "run_macro_file", "args": {"file": "Packages/User/MrMartineau/Spaces to Tabs.sublime-macro"} },
+
+	// Large comment block shortcut
+	{ "keys": ["ctrl+shift+b"], "command": "insert_snippet", "args": {"contents": "${TM_COMMENT_START/s*$//} ====${1/./=/g}====${TM_COMMENT_END/^s*(.+)/ $1/}\n${TM_COMMENT_START/s*$//} === ${1:Banner} ===${TM_COMMENT_END/^s*(.+)/ $1/}\n${TM_COMMENT_START/s*$//} ====${1/./=/g}====${TM_COMMENT_END/^s*(.+)/ $1/}"}},
+
+	//Mark and move
+	{ "keys": ["alt+shift+tab"], "command": "mark_and_move_window_select" },
+	{ "keys": ["alt+tab"], "command": "mark_and_move_window_toggle" },
+	{ "keys": ["ctrl+m"], "command": "mark_and_move_do_it_all" },
+	{ "keys": ["alt+m"], "command": "mark_and_move_next" },
+	{ "keys": ["alt+shift+m"], "command": "mark_and_move_prev" },
+	{ "keys": ["ctrl+shift+m"], "command": "mark_and_move_recall" },
+	{ "keys": ["ctrl+alt+m"], "command": "mark_and_move_clear" },
+	// Move Text
+	{ "keys": ["super+ctrl+left"], "command": "move_text_left" },
+	{ "keys": ["super+ctrl+right"], "command": "move_text_right" }
+
+]

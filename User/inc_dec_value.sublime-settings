@@ -1,0 +1,36 @@
+{
+    "file": "inc_dec_value.sublime-settings"
+
+
+,   "action_inc_min":    1  // default:   1,  key: Alt + Up
+,   "action_dec_min":   -1  // default:  -1,  key: Alt + Down
+
+,   "action_inc_max":   10  // default:  10,  key: Super + Up
+,   "action_dec_max":  -10  // default: -10,  key: Super + Down
+
+,   "action_inc_all":  100  // default:  10,  key: Super + Alt + Up
+,   "action_dec_all": -100  // default: -10,  key: Super + Alt + Down
+
+
+,   "enums": [ // write values to the list only in lowercase
+        ["yes", "no"]
+
+    ,   ["true", "false"]
+
+    ,   ["relative", "absolute", "fixed" ]
+    ,   ["top",      "bottom" ]
+    ,   ["left",     "right"  ]
+    ,   ["width",    "height" ]
+    ,   ["margin",   "padding"]
+    ,   ["block",    "none", "inline", "inline-block"]
+
+    ,   ["h1", "h2", "h3", "h4", "h5", "h6"]
+
+    ,   ["am", "pm"]
+    ,   ["sun", "mon", "tue", "wed", "thu", "fri", "sat"]
+    ,   ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"]
+    ,   ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"]
+    ]
+
+,   "force_use_upper_case_for_hex_color": true
+}

@@ -1,0 +1,41 @@
+{
+	// Copy any modified settings to `User/zen-coding.sublime-settings`
+	// otherwise modifications will not survive updates.
+
+	// Will sublime.log_commands(True) and output Zen Specific debug info
+	"debug" : false,
+
+	// Disable specific contextual completions that aren't part of `zen proper`
+	"completions_blacklist": [
+		 "css_selectors",
+		 "css_property_values",
+		 "html_elements_attributes",
+		 "html_attributes_values",
+		 "css_properties"
+	],
+
+	// For those who just want `zen as you type`, disable completions entirely
+	"disable_completions": false,
+
+	// These are `file type` settings and must be copied to
+	//  `User/Base File.sublime-settings`
+	//      or a syntax specific 1 like
+	//  `User/HTML.sublime-settings`
+	// You don't copy the whole structure, but rather individual keys.
+	// Inside the `File Settings` key.
+	//                      |
+	//                     /^\
+	"File Settings" :       {
+		//     README------^/
+		//     README----->/
+		//     README----^/
+		//>------------->/
+
+		// If `true` will disable ctrl+alt+n binding
+		"alt_gr"        : false,
+		// If `true` will insert id="$1" snippet on pressing '#', similar on '.'
+		// Useful for `raw html`, but annoying for some templating langs.
+		"auto_id_class" : true
+	}
+
+}
