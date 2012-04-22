@@ -18,15 +18,13 @@ Enable people to get started with Sublime Text 2 much more quickly
 
 	vi. [SideBarEnhancements](#sidebarenhancements)
 
-	vi. [Open Recent Files](#openrecent)
+	vii. [Open Recent Files](#openrecent)
 
-	ix. [Auto Semi-colon](#autosemicolon)
+	viii. [Auto Semi-colon](#autosemicolon)
 
-	x. [HTML5](#html5)
+	ix. [Alignment](#alignment)
 
-	xi. [Alignment](#alignment)
-
-	xii. [AdvancedNewFile](#advancednewfile)
+	x. [AdvancedNewFile](#advancednewfile)
 
 2. **[Front-end-specific Packages](#frontend)**
 
@@ -54,7 +52,9 @@ Enable people to get started with Sublime Text 2 much more quickly
 
 	iii. [Sublime Hg](#hg)
 
-	iv. [Sublime SFTP](#ftp)
+	iv. [Sublime SFTP](#sftp)
+
+	v. [Tortoise](#tortoise)
 
 
 # <a name="essentials"></a> Essential Packages
@@ -154,7 +154,7 @@ Automatically moves a semi-colon to the outside of the last bracket when pressed
 `super+shift+t` Open recent file. Keep pressing to open more.
 
 ## <a name="advancednewfile"></a>[AdvancedNewFile](https://github.com/xobb1t/Sublime-AdvancedNewFile) <small>by [Dima Kukushkin](https://github.com/xobb1t/)</small>
-Easily & quickly create new files & folders. Nettuts+ have created a quick screencast for the plugin, [view it here](http://net.tutsplus.com/tutorials/tools-and-tips/lightning-fast-folder-and-file-creation-in-sublime-text-2/)
+Easily & quickly create new files & folders. Nettuts+ have created a quick screencast for the plugin, [view it here](http://net.tutsplus.com/tutorials/tools-and-tips/lightning-fast-folder-and-file-creation-in-sublime-text-2/).
 **Install through Package Control**
 
 ### Keybinding
@@ -162,7 +162,7 @@ Easily & quickly create new files & folders. Nettuts+ have created a quick scree
 
 
 ## <a name="gotorecent"></a> [GotoRecent](https://github.com/paccator/GotoRecent) <small>by [paccator](https://github.com/paccator/)</small>
-Sublime Text 2 plugin that adds a panel to reopen recently closed files
+Sublime Text 2 plugin that adds a panel to reopen recently closed files.
 **Install through Package Control**
 
 ### Keybinding
@@ -244,4 +244,9 @@ Mercurial integration
 
 ## <a name="sftp"></a> [Sublime SFTP](http://wbond.net/sublime_packages/sftp) <small>by [Will Bond](http://wbond.net/)</small>
 Commercial SFTP/FTP plugin - upload, sync, browse, remote edit, diff and vcs integration
+**Install through Package Control**
+
+
+## <a name="tortoise"></a> [Tortoise](http://wbond.net/sublime_packages/tortoise) <small>by [Will Bond](http://wbond.net/)</small>
+Windows-only plugin that provides key bindings and menu entries for TortoiseSVN, TortoiseGit and TortoiseHg.
 **Install through Package Control**
