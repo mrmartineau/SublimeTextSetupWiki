@@ -1,0 +1,106 @@
+[
+	{"id": "side-bar-files-open-with",
+		"children":
+		[
+
+			// Espresso
+			{
+				"caption": "Espresso",
+				"id": "side-bar-files-open-with-espresso",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "Espresso.app",
+									"extensions":"css" //open all even folders
+								}
+			},
+			// CSS Edit
+			{
+				"caption": "CSS Edit",
+				"id": "side-bar-files-open-with-cssedit",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "CSSEdit.app",
+									"extensions":"css" //any file with extension
+								}
+				},
+			{"caption":"-"},
+			// Browsers
+			{
+				"caption": "Chrome",
+				"id": "side-bar-files-open-with-chrome",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "Chrome.app",
+									"extensions":"html|php"  //any file with these extensions
+								}
+			},
+			{
+				"caption": "Firefox",
+				"id": "side-bar-files-open-with-firefox",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "Firefox.app",
+									"extensions":"html|php"  //any file with these extensions
+								}
+			},
+			{"caption":"-"},
+			// Photoshop
+			{
+				"caption": "Photoshop",
+				"id": "side-bar-files-open-with-photoshop",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "Adobe Photoshop CS5.app",
+									"extensions":"psd|png|jpg|jpeg|gif"  //any file with these extensions
+								}
+			},
+			// Preview
+			{
+				"caption": "Preview",
+				"id": "side-bar-files-open-with-preview",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "Preview.app",
+									"extensions":"psd|png|jpg|jpeg|gif"  //any file with these extensions
+								}
+			},
+			{"caption":"-"},
+			// Textmate
+			{
+				"caption": "Textmate",
+				"id": "side-bar-files-open-with-textmate",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "Textmate.app",
+									"extensions":"html|php|js"  //any file with these extensions
+								}
+			},
+			// Coda
+			{
+				"caption": "Coda",
+				"id": "side-bar-files-open-with-coda",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "Coda.app",
+									"extensions":"html|php|js"  //any file with these extensions
+								}
+			}
+		]
+	}
+]

@@ -1,0 +1,16 @@
+{
+	"files":
+	{
+		"jquery"       : "http://code.jquery.com/jquery.min.js",
+		"normalize.css": "https://raw.github.com/necolas/normalize.css/master/normalize.css",
+		"imagesLoaded" : "https://raw.github.com/desandro/imagesloaded/master/jquery.imagesloaded.min.js",
+		"masonry"      : "https://raw.github.com/desandro/masonry/master/jquery.masonry.min.js",
+		"isotope"      : "https://raw.github.com/desandro/isotope/master/jquery.isotope.min.js"
+	},
+	"packages":
+	{
+		"html5-boilerplate": "http://github.com/h5bp/html5-boilerplate/zipball/v2.0stripped",
+		"320 and up"       : "https://github.com/malarkey/320andup/zipball/master",
+		"Boost"            : "https://github.com/mrmartineau/Boost/zipball/master"
+	}
+}

@@ -1,0 +1,9 @@
+[
+	{
+		"args":
+		{
+			"set_translate_tabs": true
+		},
+		"command": "unexpand_tabs"
+	}
+]
