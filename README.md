@@ -1,10 +1,10 @@
-SublimeTextSetup
 ================
+SublimeTextSetup
 
 Enable people to get started with Sublime Text 2 much more quickly
 
 ## Contents
-1. [Essential Packages](#essentials)
+1. **[Essential Packages](#essentials)**
 
 	i. [Package Control](#package_control)
 
@@ -30,6 +30,30 @@ Enable people to get started with Sublime Text 2 much more quickly
 
 	xii. [AdvancedNewFile](#advancednewfile)
 
+2. **[Front-end-specific Packages](#frontend)**
+
+	i. [LESS](#less)
+
+	ii. [Netuts+ Fetch](#fetch)
+
+	iii. [Placeholders](#placeholders)
+
+	iv. [Prefixr](#prefixr)
+
+	v. [ColorHighlighter](#colorhighlighter)
+
+	vi. [Gist](#gist)
+
+3. **[Source Control & FTP](#sourcecontrol)**
+
+	i. [Git](#Git)
+
+	ii. [SVN](#svn)
+
+	iii. [Sublime Hg](#hg)
+
+	iv. [Sublime SFTP](#ftp)
+
 
 # <a name="essentials"></a> Essential Packages
 
@@ -45,10 +69,10 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_p
 ```
 
 ### Install a package with Package Control
-Bring up the Sublime prompt (Go To Anything / Command Prompt) by pressing `super+shift+p` (super = cmd on Mac or ctrl on PC/Linux), start typing 'install' & hit enter when 'Package Control: Install Package' is highlighted. A quick-panel (like Goto Anything) will appear listing all available packages. Start typing the name of the package you wish to install, and then select it. Package Control will download the package file and install the package into the running instance of Sublime Text 2. You can look at the status area at the bottom of the editor for status updates.
+Bring up the Command palette by pressing `super+shift+p` (super = cmd on Mac or ctrl on PC/Linux), start typing 'install' & hit enter when 'Package Control: Install Package' is highlighted. A quick-panel (like Goto Anything) will appear listing all available packages. Start typing the name of the package you wish to install, and then select it. Package Control will download the package file and install the package into the running instance of Sublime Text 2. You can look at the status area at the bottom of the editor for status updates.
 
 #### Other Package Control functions
-You can use Package Control to manage your packages, some of the most common action you will do is to install, disable, upgrade & remove packages. To do any of them, bring up the Go To Anything prompt & type whichever command you want. The rest should be self-explanitory.
+You can use Package Control to manage your packages, some of the most common action you will do is to install, disable, upgrade & remove packages. To do any of them, bring up the Command palette prompt & type whichever command you want. The rest should be self-explanitory.
 
 
 ## <a name="zencoding"></a> [ZenCoding](https://bitbucket.org/sublimator/sublime-2-zencoding)
@@ -68,33 +92,33 @@ becomes this:
 Inline lint highlighting for the Sublime Text 2 editor. **You're gonna want to disable the CSS Linting so copy any modified settings to `User/SublimeLinter.sublime-settings`. **Install through Package Control** [View/Download my settings](https://github.com/mrmartineau/SublimeTextSetup/blob/master/User/SublimeLinter.sublime-settings)
 
 ### Useful keybindings:
-`ctrl+alt+enter` = Enter Koan (Live output of zen abbreviations)
+`ctrl+alt+enter` Enter Koan (Live output of zen abbreviations)
 
 
 ## <a name="incdec"></a> [Inc-Dec-Values](https://github.com/rmaksim/Sublime-Text-2-Inc-Dec-Value)
 Increase / decrease of numbers (integer and fractional), dates, hex color values, opposite relations or cycled enumerations on the configured value and a bonus - string actions (upper, lower, capitalize). **Install through Package Control**
 
 ### Useful keybindings for numbers:
-`alt+up/down` = increases/decreases the one character to the left on +1/-1
-`super+up/down` = increases/decreases the one character to the left on +10/-10
-`super+alt+ctrl+up/down` = increases/decreases the one character to the left on +100/-100
+`alt+up/down` increases/decreases the one character to the left on +1/-1
+`super+up/down` increases/decreases the one character to the left on +10/-10
+`super+alt+ctrl+up/down` increases/decreases the one character to the left on +100/-100
 
 ### Useful keybindings for strings:
-`alt+up/down` = Capitalise
-`super+up/down` = UPPERCASE
-`alt+down` or `super+down` = lowercase
+`alt+up/down` Capitalise
+`super+up/down` UPPERCASE
+`alt+down` or `super+down` lowercase
 
 ### Useful keybindings for opposite relations or cycled enumerations:
-`super+alt+up/down` = Changes the value under the cursor ("true" or "false") to the opposite
-`super+alt+ctrl+up/down` = Enumerate/cycle through the examples in the sublime-settings file (Example are days of the week, month names & CSS style properties - very handy)
+`super+alt+up/down` Changes the value under the cursor ("true" or "false") to the opposite
+`super+alt+ctrl+up/down` Enumerate/cycle through the examples in the sublime-settings file (Example are days of the week, month names & CSS style properties - very handy)
 
 ## <a name="incdec"></a> [Move Text](https://github.com/colinta/SublimeMoveText)
 Select text and drag it around, or setup a text tunnel to move code from one location to another. **Install through Package Control**
 
 ### Useful keybindings
 (these need to be added to `Users/Default (OSX).sublime-settings`:
-`super+ctrl+left` = Move text left
-`super+ctrl+right` = Move text right
+`super+ctrl+left` Move text left
+`super+ctrl+right` Move text right
 
 ### Add the following to your User/Default (OSX).sublime-keymap file
 ```json
@@ -111,7 +135,7 @@ Sublime's native sidebar sucks, install this to improve it. **Install through Pa
 A package which open the most recently closed files, in the same that Chrome does with tabs..
 
 ### Keybinding
-`super+shift+t` = Open recent file. Keep pressing to open more.
+`super+shift+t` Open recent file. Keep pressing to open more.
 
 
 ## <a name="jquery"></a> [jQuery](https://github.com/SublimeText/jQuery)
@@ -133,14 +157,14 @@ Add HTML5 syntax mode & snippets to ST2. Browse [the repository](https://github.
 **Install through Package Control**
 
 ### Keybinding
-`super+shift+t` = Open recent file. Keep pressing to open more.
+`super+shift+t` Open recent file. Keep pressing to open more.
 
 ## <a name="advancednewfile"></a>[AdvancedNewFile](https://github.com/xobb1t/Sublime-AdvancedNewFile)
 Easily & quickly create new files & folders. Nettuts+ have created a quick screencast for the plugin, [view it here](http://net.tutsplus.com/tutorials/tools-and-tips/lightning-fast-folder-and-file-creation-in-sublime-text-2/)
 **Install through Package Control**
 
 ### Keybinding
-`super+alt+n` = Enter path for new file
+`super+alt+n` Enter path for new file
 
 
 ## <a name="gotorecent"></a> [GotoRecent](https://github.com/paccator/GotoRecent)
@@ -148,10 +172,10 @@ Sublime Text 2 plugin that adds a panel to reopen recently closed files
 **Install through Package Control**
 
 ### Keybinding
-`super+e` = Open recent file by showing a panel
+`super+e` Open recent file by showing a panel
 
 
-# Front-end-specific Packages
+# <a name="frontend"></a>  Front-end-specific Packages
 
 ## <a name="less"></a> [LESS](https://github.com/danro/LESS-sublime)
 LESS syntax highlighting for Sublime Text 2
@@ -165,11 +189,11 @@ Fetch the latest version of remote files and zip packages. **Install through Pac
 **Install through Package Control**
 
 ### Keybinding
-Type `fetch` into Go To Anything
+Type `fetch` into Command palette
 
 
 ## <a name="placeholders"></a> [Placeholders](https://github.com/mrmartineau/Placeholders)
-Placeholder HTML & content (lorem ipsum) package for Sublime Text 2
+Placeholder HTML & content (lorem ipsum) package for Sublime Text 2. Browse [the repository](https://github.com/mrmartineau/Placeholders) to see what snippets are included, usually the tabtrigger is the name of the snippet.
 
 
 ## <a name="prefixr"></a> [Prefixr](http://wbond.net/sublime_packages/prefixr)
@@ -194,10 +218,19 @@ If you're using OS X and have a keychain entry for github.com, no configuration 
 
 
 
-# Source Control & FTP
+# <a name="sourcecontrol"></a> Source Control & FTP
 
 ## <a name="git"></a> [Git](https://github.com/kemayo/sublime-text-2-git)
+Git integration. Use the command palette
 
 
 ## <a name="svn"></a> [SVN](http://wbond.net/sublime_packages/svn)
-Full-featured commercial Subversion plugin with a focus on usability
+Full-featured commercial Subversion plugin
+
+
+## <a name="hg"></a> [SublimeHg](https://github.com/SublimeText/SublimeHg)
+Mercurial integration
+
+
+## <a name="sftp"></a> [Sublime SFTP](http://wbond.net/sublime_packages/sftp)
+Commercial SFTP/FTP plugin - upload, sync, browse, remote edit, diff and vcs integration
