@@ -30,6 +30,7 @@
     ,   ["sun", "mon", "tue", "wed", "thu", "fri", "sat"]
     ,   ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"]
     ,   ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"]
+    ,   ["i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix", "x", "xi", "xii"]
     ]
 
 ,   "force_use_upper_case_for_hex_color": true
