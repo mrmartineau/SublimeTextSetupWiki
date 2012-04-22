@@ -194,6 +194,7 @@ Type `fetch` into Command palette
 
 ## <a name="placeholders"></a> [Placeholders](https://github.com/mrmartineau/Placeholders)
 Placeholder HTML & content (lorem ipsum) package for Sublime Text 2. Browse [the repository](https://github.com/mrmartineau/Placeholders) to see what snippets are included, usually the tabtrigger is the name of the snippet.
+**Install through Package Control**
 
 
 ## <a name="prefixr"></a> [Prefixr](http://wbond.net/sublime_packages/prefixr)
@@ -207,6 +208,7 @@ ColorHighlighter underlays selected hexadecimal colorcodes (like "#FFFFFF") with
 
 ## <a name="gist"></a> [Gist](https://github.com/condemil/Gist)
 Create new Gists from selected text & print existing Gists from Github.com
+**Install through Package Control**
 
 #### Installation options
 If you're using OS X and have a keychain entry for github.com, no configuration is needed. Otherwise, copy the `Gist.sublime-settings` file from Packages/Gist to Packages/User sub-directory and edit:
@@ -222,15 +224,19 @@ If you're using OS X and have a keychain entry for github.com, no configuration 
 
 ## <a name="git"></a> [Git](https://github.com/kemayo/sublime-text-2-git)
 Git integration. Use the command palette
+**Install through Package Control**
 
 
 ## <a name="svn"></a> [SVN](http://wbond.net/sublime_packages/svn)
 Full-featured commercial Subversion plugin
+**Install through Package Control**
 
 
 ## <a name="hg"></a> [SublimeHg](https://github.com/SublimeText/SublimeHg)
 Mercurial integration
+**Install through Package Control**
 
 
 ## <a name="sftp"></a> [Sublime SFTP](http://wbond.net/sublime_packages/sftp)
 Commercial SFTP/FTP plugin - upload, sync, browse, remote edit, diff and vcs integration
+**Install through Package Control**
