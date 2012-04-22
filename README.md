@@ -73,8 +73,11 @@ Bring up the Command palette by pressing `super+shift+p` (super = cmd on Mac or 
 #### Other Package Control functions
 You can use Package Control to manage your packages, some of the most common action you will do is to install, disable, upgrade & remove packages. To do any of them, bring up the Command palette prompt & type whichever command you want. The rest should be self-explanitory.
 
+#### Install/Browse more packages
+Will Bond has also created a directory of community-created packages that you can search/browse. Check it out at http://wbond.net/sublime_packages/community
 
-## <a name="zencoding"></a> [ZenCoding](https://bitbucket.org/sublimator/sublime-2-zencoding)
+
+## <a name="zencoding"></a> [ZenCoding](https://bitbucket.org/sublimator/sublime-2-zencoding) <small>by [Nicholas Dudfield](https://bitbucket.org/sublimator/)</small>
 Zen Coding uses a specific syntax in order to expand small snippets of code, similar to CSS selectors, into full-fledged HTML code. **Install through Package Control**
 
 #### Settings
