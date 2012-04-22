@@ -163,7 +163,7 @@ Easily & quickly create new files & folders. Nettuts+ have created a quick scree
 `super+alt+n` Enter path for new file
 
 
-## <a name="gotorecent"></a> [GotoRecent](https://github.com/paccator/GotoRecent) <small>by [paccator](https://github.com/paccator/)</small>
+## xi <a name="gotorecent"></a> [GotoRecent](https://github.com/paccator/GotoRecent) <small>by [paccator](https://github.com/paccator/)</small>
 Sublime Text 2 plugin that adds a panel to reopen recently closed files.
 **Install through Package Control**
 
