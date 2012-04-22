@@ -10,11 +10,25 @@ Enable people to get started with Sublime Text 2 much more quickly
 
 	ii. [ZenCoding](#zencoding)
 
-	ii. [SublimeLinter](#sublimelinter)
-
 	iii. [SublimeLinter](#sublimelinter)
 
-	iv. [SublimeLinter](#sidebarenhancements)
+	iv. [Inc-Dec-Values](#incdec)
+
+	v. [Move Text](#movetext)
+
+	vi. [SideBarEnhancements](#sidebarenhancements)
+
+	vi. [Open Recent Files](#openrecent)
+
+	vi. [jQuery](#jquery)
+
+	ix. [Auto Semi-colon](#autosemicolon)
+
+	x. [HTML5](#html5)
+
+	xi. [Alignment](#alignment)
+
+	xii. [AdvancedNewFile](#advancednewfile)
 
 
 # <a name="essentials"></a> Essential Packages
@@ -42,8 +56,6 @@ Zen Coding uses a specific syntax in order to expand small snippets of code, sim
 
 #### Settings
 I have modified the default settings so I have duplicated the `zen-coding.sublime-settings` file, moved it to my User directory & amended it so that "auto_id_class" is set to true instead of false. This setting enables you to automatically add `id=""` when a `#` is added with a tag. [View/Download my settings](https://github.com/mrmartineau/SublimeTextSetup/blob/master/User/zen-coding.sublime-settings)
-
-e.g.
 ```html
 this:
 <div #></div>
@@ -92,7 +104,7 @@ Select text and drag it around, or setup a text tunnel to move code from one loc
 ```
 
 ## <a name="sidebarenhancements"></a> [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements)
-Sublime's native sidebar sucks, install this to improve it. **Install through Package Control** [View/Download my settings](https://github.com/mrmartineau/SublimeTextSetup/blob/master/User/SideBarenhancements/Open%20With/Side%20Bar.sublime-menu)
+Sublime's native sidebar sucks, install this to improve it. **Install through Package Control** [View/Download my settings](https://github.com/mrmartineau/SublimeTextSetup/blob/master/User/SideBarEnhancements/Open%20With/Side%20Bar.sublime-menu)
 
 
 ## <a name="openrecent"></a> [Open Recent Files](https://github.com/spadgos/sublime-OpenRecentFiles)
@@ -103,27 +115,37 @@ A package which open the most recently closed files, in the same that Chrome doe
 
 
 ## <a name="jquery"></a> [jQuery](https://github.com/SublimeText/jQuery)
-This package helps with the jQuery API.  Browse [the repository](https://github.com/SublimeText/jQuery) to see what snippets are included, usually the tabtrigger is the name of the snippet.
+This package helps with the jQuery API. Browse [the repository](https://github.com/SublimeText/jQuery) to see what snippets are included, usually the tabtrigger is the name of the snippet.
+**Install through Package Control**
 
 
 ## <a name="autosemicolon"></a>[Auto Semi-colon](https://github.com/LewisW/SublimeAutoSemiColon)
 Automatically moves a semi-colon to the outside of the last bracket when pressed inside. This is great when used in LESS mixins or javascript functions. Its a small but very useful package.
+**Install through Package Control**
 
 
 ## <a name="html5"></a>[HTML5](https://github.com/mrmartineau/HTML5)
 Add HTML5 syntax mode & snippets to ST2. Browse [the repository](https://github.com/mrmartineau/HTML5) to see what snippets are included, usually the tabtrigger is the name of the snippet.
+**Install through Package Control**
 
 
 ## <a name="alignment"></a>[Alignment](http://wbond.net/sublime_packages/alignment)
+**Install through Package Control**
+
+### Keybinding
+`super+shift+t` = Open recent file. Keep pressing to open more.
+
 ## <a name="advancednewfile"></a>[AdvancedNewFile](https://github.com/xobb1t/Sublime-AdvancedNewFile)
-Easily & quickly create new files & folders
+Easily & quickly create new files & folders. Nettuts+ have created a quick screencast for the plugin, [view it here](http://net.tutsplus.com/tutorials/tools-and-tips/lightning-fast-folder-and-file-creation-in-sublime-text-2/)
+**Install through Package Control**
 
 ### Keybinding
 `super+alt+n` = Enter path for new file
 
 
-## <a name="gotorecent"></a>[GotoRecent](https://github.com/paccator/GotoRecent)
+## <a name="gotorecent"></a> [GotoRecent](https://github.com/paccator/GotoRecent)
 Sublime Text 2 plugin that adds a panel to reopen recently closed files
+**Install through Package Control**
 
 ### Keybinding
 `super+e` = Open recent file by showing a panel
@@ -131,10 +153,51 @@ Sublime Text 2 plugin that adds a panel to reopen recently closed files
 
 # Front-end-specific Packages
 
-## LESS
-## Nettuts+ Fetch
-## Placeholders
-## Prefixr
-## Color Highlighter
-## Git
-## Gist
+## <a name="less"></a> [LESS](https://github.com/danro/LESS-sublime)
+LESS syntax highlighting for Sublime Text 2
+**Install through Package Control**
+
+
+## <a name="fetch"></a> [Nettuts+ Fetch](http://net.tutsplus.com/articles/news/introducing-nettuts-fetch/)
+Fetch the latest version of remote files and zip packages. **Install through Package Control** [View/Download my settings](https://github.com/mrmartineau/SublimeTextSetup/blob/master/User/Fetch.sublime-settings)
+
+[Nettuts+ introduction to Fetch](http://net.tutsplus.com/articles/news/introducing-nettuts-fetch/)
+**Install through Package Control**
+
+### Keybinding
+Type `fetch` into Go To Anything
+
+
+## <a name="placeholders"></a> [Placeholders](https://github.com/mrmartineau/Placeholders)
+Placeholder HTML & content (lorem ipsum) package for Sublime Text 2
+
+
+## <a name="prefixr"></a> [Prefixr](http://wbond.net/sublime_packages/prefixr)
+Cross-browser CSS3 in seconds. This package runs CSS through the Prefixr.com API. [Nettuts+ introduction to Prefixr](http://net.tutsplus.com/articles/news/cross-browser-css-in-seconds-with-prefixr/)
+**Install through Package Control**
+
+
+## <a name="colorhighlighter"></a> [ColorHighlighter](https://github.com/Monnoroch/ColorHighlighter)
+ColorHighlighter underlays selected hexadecimal colorcodes (like "#FFFFFF") with their real color.
+
+
+## <a name="gist"></a> [Gist](https://github.com/condemil/Gist)
+Create new Gists from selected text & print existing Gists from Github.com
+
+#### Installation options
+If you're using OS X and have a keychain entry for github.com, no configuration is needed. Otherwise, copy the `Gist.sublime-settings` file from Packages/Gist to Packages/User sub-directory and edit:
+
+`"username": ""` You need to enter your GitHub username here
+`"password": ""` You need to enter your GitHub password here
+`"https_proxy": http://user:pass@proxy:port` You can enter https proxy here. Format: "http://user:pass@proxy:port"
+
+
+
+
+# Source Control & FTP
+
+## <a name="git"></a> [Git](https://github.com/kemayo/sublime-text-2-git)
+
+
+## <a name="svn"></a> [SVN](http://wbond.net/sublime_packages/svn)
+Full-featured commercial Subversion plugin with a focus on usability
