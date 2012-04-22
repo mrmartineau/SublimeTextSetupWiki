@@ -214,7 +214,7 @@ ColorHighlighter underlays selected hexadecimal colorcodes (like "#FFFFFF") with
 
 
 ## viii. <a name="gist"></a> [Gist](https://github.com/condemil/Gist) <small>by [Dmitry Budaev](https://github.com/condemil/)</small>
-Create new Gists from selected text & print existing Gists from Github.com
+Create new Gists from selected text & print existing Gists from Github.com. [Nettuts+ Sexy Code Snippet Management With Gists](http://net.tutsplus.com/tutorials/tools-and-tips/sexy-code-snippet-management-with-gists/).
 **Install through Package Control**
 
 #### Installation options
