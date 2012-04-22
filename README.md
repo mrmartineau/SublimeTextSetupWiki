@@ -20,8 +20,6 @@ Enable people to get started with Sublime Text 2 much more quickly
 
 	vi. [Open Recent Files](#openrecent)
 
-	vi. [jQuery](#jquery)
-
 	ix. [Auto Semi-colon](#autosemicolon)
 
 	x. [HTML5](#html5)
@@ -32,17 +30,21 @@ Enable people to get started with Sublime Text 2 much more quickly
 
 2. **[Front-end-specific Packages](#frontend)**
 
-	i. [LESS](#less)
+	i. [jQuery](#jquery)
 
-	ii. [Netuts+ Fetch](#fetch)
+	ii. [HTML5](#html5)
 
-	iii. [Placeholders](#placeholders)
+	iii. [LESS](#less)
 
-	iv. [Prefixr](#prefixr)
+	iv. [Netuts+ Fetch](#fetch)
 
-	v. [ColorHighlighter](#colorhighlighter)
+	v. [Placeholders](#placeholders)
 
-	vi. [Gist](#gist)
+	vi. [Prefixr](#prefixr)
+
+	vii. [ColorHighlighter](#colorhighlighter)
+
+	viii. [Gist](#gist)
 
 3. **[Source Control & FTP](#sourcecontrol)**
 
