@@ -59,7 +59,7 @@ Enable people to get started with Sublime Text 2 much more quickly
 
 # <a name="essentials"></a> Essential Packages
 
-## <a name="package_control"></a> [Package Control](http://wbond.net/sublime_packages/package_control) <small>by [Will Bond](http://wbond.net/)</small>
+## <a name="package_control">i</a> [Package Control](http://wbond.net/sublime_packages/package_control) <small>by [Will Bond](http://wbond.net/)</small>
 A full-featured package manager that helps discovering, installing, updating and removing packages for Sublime Text 2. It features an automatic upgrader and supports GitHub, BitBucket and a full channel/repository system.
 
 ### Package Control Installation
@@ -79,7 +79,7 @@ You can use Package Control to manage your packages, some of the most common act
 Will Bond has also created a directory of community-created packages that you can search/browse. Check it out at http://wbond.net/sublime_packages/community
 
 
-## <a name="zencoding"></a> [ZenCoding](https://bitbucket.org/sublimator/sublime-2-zencoding) <small>by [Nicholas Dudfield](https://bitbucket.org/sublimator/)</small>
+## <a name="zencoding">ii</a> [ZenCoding](https://bitbucket.org/sublimator/sublime-2-zencoding) <small>by [Nicholas Dudfield](https://bitbucket.org/sublimator/)</small>
 Zen Coding uses a specific syntax in order to expand small snippets of code, similar to CSS selectors, into full-fledged HTML code. **Install through Package Control**
 
 #### Settings
