@@ -150,10 +150,10 @@ Automatically moves a semi-colon to the outside of the last bracket when pressed
 
 
 ## ix. <a name="alignment"></a>[Alignment](http://wbond.net/sublime_packages/alignment) <small>by [Will Bond](http://wbond.net/)</small>
-**Install through Package Control**
+Dead-simple alignment of multi-line selections and multiple selections. **Install through Package Control**
 
 ### Keybinding
-`super+shift+t` Open recent file. Keep pressing to open more.
+`ctrl+alt+a` on Windows and Linux, or `cmd+ctrl+a` on OS X.
 
 ## x. <a name="advancednewfile"></a>[AdvancedNewFile](https://github.com/xobb1t/Sublime-AdvancedNewFile) <small>by [Dima Kukushkin](https://github.com/xobb1t/)</small>
 Easily & quickly create new files & folders. Nettuts+ have created a quick screencast for the plugin, [view it here](http://net.tutsplus.com/tutorials/tools-and-tips/lightning-fast-folder-and-file-creation-in-sublime-text-2/).
