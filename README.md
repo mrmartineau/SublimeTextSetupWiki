@@ -174,12 +174,12 @@ Sublime Text 2 plugin that adds a panel to reopen recently closed files.
 # <a name="frontend"></a>  Front-end-specific Packages
 
 
-## i. <a name="jquery"></a> [jQuery](https://github.com/SublimeText/jQuery) <small>by [Zander martineau](http://martineau.tv)</small>
+## i. <a name="jquery"></a> [jQuery](https://github.com/SublimeText/jQuery) <small>by [Zander Martineau](http://martineau.tv)</small>
 This package helps with the jQuery API. Browse [the repository](https://github.com/SublimeText/jQuery) to see what snippets are included, usually the tabtrigger is the name of the snippet.
 **Install through Package Control**
 
 
-## ii. <a name="html5"></a>[HTML5](https://github.com/mrmartineau/HTML5) <small>by [Zander martineau](http://martineau.tv)</small>
+## ii. <a name="html5"></a>[HTML5](https://github.com/mrmartineau/HTML5) <small>by [Zander Martineau](http://martineau.tv)</small>
 Add HTML5 syntax mode & snippets to ST2. Browse [the repository](https://github.com/mrmartineau/HTML5) to see what snippets are included, usually the tabtrigger is the name of the snippet.
 **Install through Package Control**
 
@@ -199,7 +199,7 @@ Fetch the latest version of remote files and zip packages. **Install through Pac
 Type `fetch` into Command palette
 
 
-## v. <a name="placeholders"></a> [Placeholders](https://github.com/mrmartineau/Placeholders) <small>by [Zander martineau](http://martineau.tv)</small>
+## v. <a name="placeholders"></a> [Placeholders](https://github.com/mrmartineau/Placeholders) <small>by [Zander Martineau](http://martineau.tv)</small>
 Placeholder HTML & content (lorem ipsum) package for Sublime Text 2. Browse [the repository](https://github.com/mrmartineau/Placeholders) to see what snippets are included, usually the tabtrigger is the name of the snippet.
 **Install through Package Control**
 
