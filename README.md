@@ -64,7 +64,7 @@ Go to http://www.sublimetext.com/dev, download & install.
 # <a name="essentials"></a> Essential Packages
 
 ## i. <a name="package_control"></a> [Package Control](http://wbond.net/sublime_packages/package_control)
-By [Will Bond](http://wbond.net/) **Install through Package Control**
+By [Will Bond](http://wbond.net/) - **Install through Package Control**
 
 A full-featured package manager that helps discovering, installing, updating and removing packages for Sublime Text 2. It features an automatic upgrader and supports GitHub, BitBucket and a full channel/repository system.
 
@@ -86,7 +86,7 @@ Will Bond has also created a directory of community-created packages that you ca
 
 
 ## ii. <a name="zencoding"></a> [ZenCoding](https://bitbucket.org/sublimator/sublime-2-zencoding)
-By [Nicholas Dudfield](https://bitbucket.org/sublimator/) **Install through Package Control**
+By [Nicholas Dudfield](https://bitbucket.org/sublimator/) - **Install through Package Control**
 
 Zen Coding uses a specific syntax in order to expand small snippets of code, similar to CSS selectors, into full-fledged HTML code.
 
@@ -101,7 +101,7 @@ becomes this:
 ```
 
 ## iii. <a name="sublimelinter"></a> [SublimeLinter](http://github.com/Kronuz/SublimeLinter)
-By [Germán M. Bravo](http://github.com/Kronuz/) **Install through Package Control**
+By [Germán M. Bravo](http://github.com/Kronuz/) - **Install through Package Control**
 
 Inline lint highlighting for the Sublime Text 2 editor. **You're gonna want to disable the CSS Linting so copy any modified settings to `User/SublimeLinter.sublime-settings`.
 
@@ -112,7 +112,7 @@ Inline lint highlighting for the Sublime Text 2 editor. **You're gonna want to d
 
 
 ## iv. <a name="incdec"></a> [Inc-Dec-Values](https://github.com/rmaksim/Sublime-Text-2-Inc-Dec-Value)
-By [rmaksim](https://github.com/rmaksim/) **Install through Package Control**
+By [rmaksim](https://github.com/rmaksim/) - **Install through Package Control**
 
 Increase / decrease of numbers (integer and fractional), dates, hex color values, opposite relations or cycled enumerations on the configured value and a bonus - string actions (upper, lower, capitalize).
 
@@ -136,7 +136,7 @@ Increase / decrease of numbers (integer and fractional), dates, hex color values
 `super+alt+ctrl+up/down` Enumerate/cycle through the examples in the sublime-settings file (Example are days of the week, month names & CSS style properties - very handy)
 
 ## v. <a name="movetext"></a> [Move Text](https://github.com/colinta/SublimeMoveText)
-By [Colin Thomas-Arnold](http://colinta.com/) **Install through Package Control**
+By [Colin Thomas-Arnold](http://colinta.com/) - **Install through Package Control**
 
 Select text and drag it around, or setup a text tunnel to move code from one location to another.
 
@@ -153,7 +153,7 @@ Select text and drag it around, or setup a text tunnel to move code from one loc
 ```
 
 ## vi. <a name="sidebarenhancements"></a> [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements)
-By [Tito Bouzout](https://github.com/titoBouzout/) **Install through Package Control**
+By [Tito Bouzout](https://github.com/titoBouzout/) - **Install through Package Control**
 
 Sublime's native sidebar sucks, install this to improve it.
 
@@ -161,7 +161,7 @@ Sublime's native sidebar sucks, install this to improve it.
 
 
 ## vii. <a name="openrecent"></a> [Open Recent Files](https://github.com/spadgos/sublime-OpenRecentFiles)
-By [Nick Fisher](https://github.com/spadgos/) **Install through Package Control**
+By [Nick Fisher](https://github.com/spadgos/) - **Install through Package Control**
 
 A package which open the most recently closed files, in the same that Chrome does with tabs..
 
@@ -170,13 +170,13 @@ A package which open the most recently closed files, in the same that Chrome doe
 
 
 ## viii. <a name="autosemicolon"></a>[Auto Semi-colon](https://github.com/LewisW/SublimeAutoSemiColon)
-By [Lewis Wright](http://allwrightythen.com/) **Install through Package Control**
+By [Lewis Wright](http://allwrightythen.com/) - **Install through Package Control**
 
 Automatically moves a semi-colon to the outside of the last bracket when pressed inside. This is great when used in LESS mixins or javascript functions. Its a small but very useful package.
 
 
 ## ix. <a name="alignment"></a>[Alignment](http://wbond.net/sublime_packages/alignment)
-By [Will Bond](http://wbond.net/) **Install through Package Control**
+By [Will Bond](http://wbond.net/) - **Install through Package Control**
 
 Dead-simple alignment of multi-line selections and multiple selections.
 
@@ -184,7 +184,7 @@ Dead-simple alignment of multi-line selections and multiple selections.
 `ctrl+alt+a` on Windows and Linux, or `cmd+ctrl+a` on OS X.
 
 ## x. <a name="advancednewfile"></a>[AdvancedNewFile](https://github.com/xobb1t/Sublime-AdvancedNewFile)
-By [Dima Kukushkin](https://github.com/xobb1t/) **Install through Package Control**
+By [Dima Kukushkin](https://github.com/xobb1t/) - **Install through Package Control**
 
 Easily & quickly create new files & folders. Nettuts+ have created a quick screencast for the plugin, [view it here](http://net.tutsplus.com/tutorials/tools-and-tips/lightning-fast-folder-and-file-creation-in-sublime-text-2/).
 
@@ -193,7 +193,7 @@ Easily & quickly create new files & folders. Nettuts+ have created a quick scree
 
 
 ## xi. <a name="gotorecent"></a> [GotoRecent](https://github.com/paccator/GotoRecent)
-By [paccator](https://github.com/paccator/) **Install through Package Control**
+By [paccator](https://github.com/paccator/) - **Install through Package Control**
 
 Sublime Text 2 plugin that adds a panel to reopen recently closed files.
 
@@ -205,25 +205,25 @@ Sublime Text 2 plugin that adds a panel to reopen recently closed files.
 
 
 ## i. <a name="jquery"></a> [jQuery](https://github.com/SublimeText/jQuery)
-By [Zander Martineau](http://martineau.tv) **Install through Package Control**
+By [Zander Martineau](http://martineau.tv) - **Install through Package Control**
 
 This package helps with the jQuery API. Browse [the repository](https://github.com/SublimeText/jQuery) to see what snippets are included, usually the tabtrigger is the name of the snippet.
 
 
 ## ii. <a name="html5"></a>[HTML5](https://github.com/mrmartineau/HTML5)
-By [Zander Martineau](http://martineau.tv) **Install through Package Control**
+By [Zander Martineau](http://martineau.tv) - **Install through Package Control**
 
 Add HTML5 syntax mode & snippets to ST2. Browse [the repository](https://github.com/mrmartineau/HTML5) to see what snippets are included, usually the tabtrigger is the name of the snippet.
 
 
 ## iii. <a name="less"></a> [LESS](https://github.com/danro/LESS-sublime)
-By [Dan Rogers](http://danro.net) **Install through Package Control**
+By [Dan Rogers](http://danro.net) - **Install through Package Control**
 
 LESS syntax highlighting for Sublime Text 2
 
 
 ## iv. <a name="fetch"></a> [Nettuts+ Fetch](http://net.tutsplus.com/articles/news/introducing-nettuts-fetch/)
-By [Nettuts+](http://net.tutsplus.com/) **Install through Package Control**
+By [Nettuts+](http://net.tutsplus.com/) - **Install through Package Control**
 
 Fetch the latest version of remote files and zip packages.
 
@@ -236,25 +236,25 @@ Type `fetch` into Command palette
 
 
 ## v. <a name="placeholders"></a> [Placeholders](https://github.com/mrmartineau/Placeholders)
-By [Zander Martineau](http://martineau.tv) **Install through Package Control**
+By [Zander Martineau](http://martineau.tv) - **Install through Package Control**
 
 Placeholder HTML & content (lorem ipsum) package for Sublime Text 2. Browse [the repository](https://github.com/mrmartineau/Placeholders) to see what snippets are included, usually the tabtrigger is the name of the snippet.
 
 
 ## vi. <a name="prefixr"></a> [Prefixr](http://wbond.net/sublime_packages/prefixr)
-By [Will Bond](http://wbond.net/) **Install through Package Control**
+By [Will Bond](http://wbond.net/) - **Install through Package Control**
 
 Cross-browser CSS3 in seconds. This package runs CSS through the Prefixr.com API. [Nettuts+ introduction to Prefixr](http://net.tutsplus.com/articles/news/cross-browser-css-in-seconds-with-prefixr/)
 
 
 ## vii. <a name="colorhighlighter"></a> [ColorHighlighter](https://github.com/Monnoroch/ColorHighlighter)
-By [Monnoroch](https://github.com/Monnoroch/) **Install through Package Control**
+By [Monnoroch](https://github.com/Monnoroch/) - **Install through Package Control**
 
 ColorHighlighter underlays selected hexadecimal colorcodes (like "#FFFFFF") with their real color.
 
 
 ## viii. <a name="gist"></a> [Gist](https://github.com/condemil/Gist)
-By [Dmitry Budaev](https://github.com/condemil/) **Install through Package Control**
+By [Dmitry Budaev](https://github.com/condemil/) - **Install through Package Control**
 
 Create new Gists from selected text & print existing Gists from Github.com. [Nettuts+ Sexy Code Snippet Management With Gists](http://net.tutsplus.com/tutorials/tools-and-tips/sexy-code-snippet-management-with-gists/).
 
@@ -272,13 +272,13 @@ If you're using OS X and have a keychain entry for github.com, no configuration 
 # <a name="sourcecontrol"></a> Source Control & FTP
 
 ## i. <a name="git"></a> [Git](https://github.com/kemayo/sublime-text-2-git)
-By [David Lynch](http://davidlynch.org/) **Install through Package Control**
+By [David Lynch](http://davidlynch.org/) - **Install through Package Control**
 
 Git integration. Use the command palette
 
 
 ## ii. <a name="svn"></a> [SVN](http://wbond.net/sublime_packages/svn)
-By [Will Bond](http://wbond.net/) **Install through Package Control**
+By [Will Bond](http://wbond.net/) - **Install through Package Control**
 
 Full-featured commercial Subversion plugin
 
@@ -286,18 +286,18 @@ Full-featured commercial Subversion plugin
 
 
 ## iii. <a name="hg"></a> [SublimeHg](https://github.com/SublimeText/SublimeHg)
-By [Guillermo López-Anglada](https://github.com/guillermooo) **Install through Package Control**
+By [Guillermo López-Anglada](https://github.com/guillermooo) - **Install through Package Control**
 
 Mercurial integration
 
 
 ## iv. <a name="sftp"></a> [Sublime SFTP](http://wbond.net/sublime_packages/sftp)
-By [Will Bond](http://wbond.net/) **Install through Package Control**
+By [Will Bond](http://wbond.net/) - **Install through Package Control**
 
 Commercial SFTP/FTP plugin - upload, sync, browse, remote edit, diff and vcs integration
 
 
 ## v. <a name="tortoise"></a> [Tortoise](http://wbond.net/sublime_packages/tortoise)
-By [Will Bond](http://wbond.net/) **Install through Package Control**
+By [Will Bond](http://wbond.net/) - **Install through Package Control**
 
 Windows-only plugin that provides key bindings and menu entries for TortoiseSVN, TortoiseGit and TortoiseHg.
