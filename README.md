@@ -124,16 +124,21 @@ Increase / decrease of numbers (integer and fractional), dates, hex color values
 
 ### Useful keybindings for numbers:
 `alt+up/down` increases/decreases the one character to the left on +1/-1
+
 `super+up/down` increases/decreases the one character to the left on +10/-10
+
 `super+alt+ctrl+up/down` increases/decreases the one character to the left on +100/-100
 
 ### Useful keybindings for strings:
 `alt+up/down` Capitalise
+
 `super+up/down` UPPERCASE
+
 `alt+down` or `super+down` lowercase
 
 ### Useful keybindings for opposite relations or cycled enumerations:
 `super+alt+up/down` Changes the value under the cursor ("true" or "false") to the opposite
+
 `super+alt+ctrl+up/down` Enumerate/cycle through the examples in the sublime-settings file (Example are days of the week, month names & CSS style properties - very handy)
 
 ## v. <a name="movetext"></a> [Move Text](https://github.com/colinta/SublimeMoveText)
@@ -291,9 +296,10 @@ Create new Gists from selected text & print existing Gists from Github.com. [Net
 If you're using OS X and have a keychain entry for github.com, no configuration is needed. Otherwise, copy the `Gist.sublime-settings` file from Packages/Gist to Packages/User sub-directory and edit:
 
 `"username": ""` You need to enter your GitHub username here
-`"password": ""` You need to enter your GitHub password here
-`"https_proxy": http://user:pass@proxy:port` You can enter https proxy here. Format: "http://user:pass@proxy:port"
 
+`"password": ""` You need to enter your GitHub password here
+
+`"https_proxy": http://user:pass@proxy:port` You can enter https proxy here. Format: "http://user:pass@proxy:port"
 
 
 
