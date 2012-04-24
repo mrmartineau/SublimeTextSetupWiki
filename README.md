@@ -38,7 +38,7 @@ Go to http://www.sublimetext.com/dev, download & install.
 
 	iii. [LESS](#less)
 
-	iv. [Netuts+ Fetch](#fetch)
+	iv. [Nettuts+ Fetch](#fetch)
 
 	v. [Placeholders](#placeholders)
 
@@ -83,6 +83,11 @@ You can use Package Control to manage your packages, some of the most common act
 
 #### Install/Browse more packages
 Will Bond has also created a directory of community-created packages that you can search/browse. Check it out at http://wbond.net/sublime_packages/community
+
+#### Batch install packages
+To batch install other packages, a `Package Control.sublime-settings` file needs to be placed into the `Packages/User/` folder. Inside of the settings file should be a JSON object with the key "installed_packages" that references a list of package names. When Package Control starts, if any of those packages are not present, the will be automatically downloaded and installed. Here is an example: http://pastebin.com/NLEavL1K. I have already created one that includes all the 'Essential Packages' [here](https://github.com/mrmartineau/SublimeTextSetup/blob/master/User/Package Control.sublime-settings) (I thought it better to only include these in case people did not need the front-emd specific templates).
+
+**I hope to get a build install script created to automate this process, if you are interested in helping out, please see this issue: https://github.com/mrmartineau/SublimeTextSetup/issues/3**
 
 
 ## ii. <a name="zencoding"></a> [ZenCoding](https://bitbucket.org/sublimator/sublime-2-zencoding)
