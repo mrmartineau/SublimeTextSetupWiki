@@ -64,7 +64,7 @@ Go to http://www.sublimetext.com/dev, download & install.
 # <a name="essentials"></a> Essential Packages
 
 ## i. <a name="package_control"></a> [Package Control](http://wbond.net/sublime_packages/package_control)
-By [Will Bond](http://wbond.net/) - **Install through Package Control**
+By [Will Bond](http://wbond.net/)
 
 A full-featured package manager that helps discovering, installing, updating and removing packages for Sublime Text 2. It features an automatic upgrader and supports GitHub, BitBucket and a full channel/repository system.
 
