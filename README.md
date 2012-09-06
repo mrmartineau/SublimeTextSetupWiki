@@ -265,10 +265,6 @@ By [Dmitry Budaev](https://github.com/condemil/) - **Install through Package Con
 
 Create new Gists from selected text & print existing Gists from Github.com. [Nettuts+ Sexy Code Snippet Management With Gists](http://net.tutsplus.com/tutorials/tools-and-tips/sexy-code-snippet-management-with-gists/).
 
-## ix. <a name="csscomb"></a> [CSS Comb](https://csscomb.com)
-
-A tool for sorting CSS properties in specific order. This is really useful if you prefer to sort your CSS properties not alphabetically but by group.
-
 
 #### Installation options
 If you're using OS X and have a keychain entry for github.com, no configuration is needed. Otherwise, copy the `Gist.sublime-settings` file from Packages/Gist to Packages/User sub-directory and edit:
@@ -279,6 +275,10 @@ If you're using OS X and have a keychain entry for github.com, no configuration 
 
 `"https_proxy": http://user:pass@proxy:port` You can enter https proxy here. Format: "http://user:pass@proxy:port"
 
+
+## ix. <a name="csscomb"></a> [CSS Comb](https://csscomb.com)
+
+A tool for sorting CSS properties in specific order. This is really useful if you prefer to sort your CSS properties not alphabetically but by group.
 
 
 # <a name="sourcecontrol"></a> Source Control & FTP
