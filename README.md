@@ -38,15 +38,19 @@ Go to http://www.sublimetext.com/dev, download & install.
 
 	iii. [LESS](#less)
 
-	iv. [Nettuts+ Fetch](#fetch)
+	iv. [SCSS](#scss)
 
-	v. [Placeholders](#placeholders)
+	v. [Nettuts+ Fetch](#fetch)
 
-	vi. [Prefixr](#prefixr)
+	vi. [EditorConfig](#editorconfig)
 
-	vii. [ColorHighlighter](#colorhighlighter)
+	vii. [Placeholders](#placeholders)
 
-	viii. [Gist](#gist)
+	viii. [Prefixr](#prefixr)
+
+	ix. [ColorHighlighter](#colorhighlighter)
+
+	x. [Gist](#gist)
 
 	ix. [CSS Comb](#csscomb)
 
@@ -229,7 +233,13 @@ By [Dan Rogers](http://danro.net) - **Install through Package Control**
 LESS syntax highlighting for Sublime Text 2
 
 
-## iv. <a name="fetch"></a> [Nettuts+ Fetch](http://net.tutsplus.com/articles/news/introducing-nettuts-fetch/)
+## iv. <a name="scss"></a> [SCSS](https://github.com/kuroir/SCSS.tmbundle/tree/SublimeText2)
+By [Mario "Kuroir" Ricalde](https://github.com/kuroir) - **Install through Package Control**
+
+SCSS syntax highlighting for Sublime Text 2
+
+
+## v. <a name="fetch"></a> [Nettuts+ Fetch](http://net.tutsplus.com/articles/news/introducing-nettuts-fetch/)
 By [Nettuts+](http://net.tutsplus.com/) - **Install through Package Control**
 
 Fetch the latest version of remote files and zip packages.
@@ -242,25 +252,31 @@ Fetch the latest version of remote files and zip packages.
 Type `fetch` into Command palette
 
 
-## v. <a name="placeholders"></a> [Placeholders](https://github.com/mrmartineau/Placeholders)
+## vi. <a name="editorconfig"></a> [EditorConfig](http://editorconfig.org/)
+**Install through Package Control**
+
+EditorConfig helps developers define and maintain consistent coding styles between different editors and IDEs. The EditorConfig project consists of a file format for defining coding styles and a collection of text editor plugins that enable editors to read the file format and adhere to defined styles. EditorConfig files are easily readibly and they work nicely with version control systems.
+
+
+## vii. <a name="placeholders"></a> [Placeholders](https://github.com/mrmartineau/Placeholders)
 By [Zander Martineau](http://martineau.tv) - **Install through Package Control**
 
 Placeholder HTML & content (lorem ipsum) package for Sublime Text 2. Browse [the repository](https://github.com/mrmartineau/Placeholders) to see what snippets are included, usually the tabtrigger is the name of the snippet.
 
 
-## vi. <a name="prefixr"></a> [Prefixr](http://wbond.net/sublime_packages/prefixr)
+## viii. <a name="prefixr"></a> [Prefixr](http://wbond.net/sublime_packages/prefixr)
 By [Will Bond](http://wbond.net/) - **Install through Package Control**
 
 Cross-browser CSS3 in seconds. This package runs CSS through the Prefixr.com API. [Nettuts+ introduction to Prefixr](http://net.tutsplus.com/articles/news/cross-browser-css-in-seconds-with-prefixr/)
 
 
-## vii. <a name="colorhighlighter"></a> [ColorHighlighter](https://github.com/Monnoroch/ColorHighlighter)
+## viii. <a name="colorhighlighter"></a> [ColorHighlighter](https://github.com/Monnoroch/ColorHighlighter)
 By [Monnoroch](https://github.com/Monnoroch/) - **Install through Package Control**
 
 ColorHighlighter underlays selected hexadecimal colorcodes (like "#FFFFFF") with their real color.
 
 
-## viii. <a name="gist"></a> [Gist](https://github.com/condemil/Gist)
+## ix. <a name="gist"></a> [Gist](https://github.com/condemil/Gist)
 By [Dmitry Budaev](https://github.com/condemil/) - **Install through Package Control**
 
 Create new Gists from selected text & print existing Gists from Github.com. [Nettuts+ Sexy Code Snippet Management With Gists](http://net.tutsplus.com/tutorials/tools-and-tips/sexy-code-snippet-management-with-gists/).

@@ -11,6 +11,7 @@
 	{
 		"html5-boilerplate": "http://github.com/h5bp/html5-boilerplate/zipball/v2.0stripped",
 		"320 and up"       : "https://github.com/malarkey/320andup/zipball/master",
-		"Boost"            : "https://github.com/mrmartineau/Boost/zipball/master"
+		"Foundation"       : "https://github.com/zurb/foundation/zipball/master",
+		"Kickoff"          : "https://github.com/tmwagency/kickoff/zipball/master"
 	}
 }
