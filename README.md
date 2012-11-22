@@ -10,49 +10,49 @@ Go to http://www.sublimetext.com/dev, download & install.
 
 	i. [Package Control](#package_control)
 
-	ii. [ZenCoding](#zencoding)
+	ii. [Inc-Dec-Values](#incdec)
 
-	iii. [SublimeLinter](#sublimelinter)
+	iii. [Move Text](#movetext)
 
-	iv. [Inc-Dec-Values](#incdec)
+	iv. [SideBarEnhancements](#sidebarenhancements)
 
-	v. [Move Text](#movetext)
+	v. [Open Recent Files](#openrecent)
 
-	vi. [SideBarEnhancements](#sidebarenhancements)
+	vi. [Auto Semi-colon](#autosemicolon)
 
-	vii. [Open Recent Files](#openrecent)
+	vii. [Alignment](#alignment)
 
-	viii. [Auto Semi-colon](#autosemicolon)
+	viii. [AdvancedNewFile](#advancednewfile)
 
-	ix. [Alignment](#alignment)
-
-	x. [AdvancedNewFile](#advancednewfile)
-
-	xi. [GotoRecent](#gotorecent)
+	ix. [GotoRecent](#gotorecent)
 
 2. **[Front-end-specific Packages](#frontend)**
 
-	i. [jQuery](#jquery)
+	i. [Emmett](#emmet)
 
-	ii. [HTML5](#html5)
+	ii. [SublimeLinter](#sublimelinter)
 
-	iii. [LESS](#less)
+	iii. [jQuery](#jquery)
 
-	iv. [SCSS](#scss)
+	iv. [HTML5](#html5)
 
-	v. [Nettuts+ Fetch](#fetch)
+	v. [LESS](#less)
 
-	vi. [EditorConfig](#editorconfig)
+	vi. [SCSS](#scss)
 
-	vii. [Placeholders](#placeholders)
+	vii. [Nettuts+ Fetch](#fetch)
 
-	viii. [Prefixr](#prefixr)
+	viii. [EditorConfig](#editorconfig)
 
-	ix. [ColorHighlighter](#colorhighlighter)
+	ix. [Placeholders](#placeholders)
 
-	x. [Gist](#gist)
+	x. [Prefixr](#prefixr)
 
-	ix. [CSS Comb](#csscomb)
+	xi. [ColorHighlighter](#colorhighlighter)
+
+	xii. [Gist](#gist)
+
+	xi. [CSS Comb](#csscomb)
 
 3. **[Source Control & FTP](#sourcecontrol)**
 
@@ -94,33 +94,6 @@ Will Bond has also created a directory of community-created packages that you ca
 To batch install other packages, a `Package Control.sublime-settings` file needs to be placed into the `Packages/User/` folder. Inside of the settings file should be a JSON object with the key "installed_packages" that references a list of package names. When Package Control starts, if any of those packages are not present, the will be automatically downloaded and installed. Here is an example: http://pastebin.com/NLEavL1K. I have already created one that includes all the 'Essential Packages' [here](https://github.com/mrmartineau/SublimeTextSetup/blob/master/User/Package Control.sublime-settings) (I thought it better to only include these in case people did not need the front-emd specific templates).
 
 **I hope to get a build install script created to automate this process, if you are interested in helping out, please see this issue: https://github.com/mrmartineau/SublimeTextSetup/issues/3**
-
-
-## ii. <a name="zencoding"></a> [ZenCoding](https://bitbucket.org/sublimator/sublime-2-zencoding)
-By [Nicholas Dudfield](https://bitbucket.org/sublimator/) - **Install through Package Control**
-
-Zen Coding uses a specific syntax in order to expand small snippets of code, similar to CSS selectors, into full-fledged HTML code.
-
-#### Settings
-I have modified the default settings so I have duplicated the `zen-coding.sublime-settings` file, moved it to my User directory & amended it so that "auto_id_class" is set to true instead of false. This setting enables you to automatically add `id=""` when a `#` is added with a tag. [View/Download my settings](https://github.com/mrmartineau/SublimeTextSetup/blob/master/User/zen-coding.sublime-settings)
-```html
-this:
-<div #></div>
-
-becomes this:
-<div id=""></div>
-```
-
-## iii. <a name="sublimelinter"></a> [SublimeLinter](http://github.com/Kronuz/SublimeLinter)
-By [Germán M. Bravo](http://github.com/Kronuz/) - **Install through Package Control**
-
-Inline lint highlighting for the Sublime Text 2 editor. **You're gonna want to disable the CSS Linting so copy any modified settings to `User/SublimeLinter.sublime-settings`.
-
-[View/Download my settings](https://github.com/mrmartineau/SublimeTextSetup/blob/master/User/SublimeLinter.sublime-settings)
-
-### Useful keybindings:
-`ctrl+alt+enter` Enter Koan (Live output of zen abbreviations)
-
 
 ## iv. <a name="incdec"></a> [Inc-Dec-Values](https://github.com/rmaksim/Sublime-Text-2-Inc-Dec-Value)
 By [rmaksim](https://github.com/rmaksim/) - **Install through Package Control**
@@ -214,32 +187,52 @@ Sublime Text 2 plugin that adds a panel to reopen recently closed files.
 
 # <a name="frontend"></a>  Front-end-specific Packages
 
+## i. <a name="emmet"></a> [Emmet](http://docs.emmet.io/)
+By [Sergey Chikuyonok](https://github.com/sergeche) - **Install through Package Control**
 
-## i. <a name="jquery"></a> [jQuery](https://github.com/SublimeText/jQuery)
+Emmet (previously known as Zen Coding) is a web-developer’s toolkit that can greatly improve your HTML & CSS workflow. Have a look through the comprehensive documentation for a taste of how powerful this plugin is: [Docs & demo](http://docs.emmet.io/)
+
+### Useful keybindings & shortcuts:
+`ctrl+alt+enter` Enter Koan (Live output of zen abbreviations)
+
+`mb10` > `margin-bottom: 10px;`
+
+`d:b` > `display: block;`
+
+
+## ii. <a name="sublimelinter"></a> [SublimeLinter](http://github.com/Kronuz/SublimeLinter)
+By [Germán M. Bravo](http://github.com/Kronuz/) - **Install through Package Control**
+
+Inline lint highlighting for the Sublime Text 2 editor. **You're gonna want to disable the CSS Linting so copy any modified settings to `User/SublimeLinter.sublime-settings`.
+
+[View/Download my settings](https://github.com/mrmartineau/SublimeTextSetup/blob/master/User/SublimeLinter.sublime-settings)
+
+
+## iii. <a name="jquery"></a> [jQuery](https://github.com/SublimeText/jQuery)
 By [Zander Martineau](http://martineau.tv) - **Install through Package Control**
 
 This package helps with the jQuery API. Browse [the repository](https://github.com/SublimeText/jQuery) to see what snippets are included, usually the tabtrigger is the name of the snippet.
 
 
-## ii. <a name="html5"></a>[HTML5](https://github.com/mrmartineau/HTML5)
+## iv. <a name="html5"></a>[HTML5](https://github.com/mrmartineau/HTML5)
 By [Zander Martineau](http://martineau.tv) - **Install through Package Control**
 
 Add HTML5 syntax mode & snippets to ST2. Browse [the repository](https://github.com/mrmartineau/HTML5) to see what snippets are included, usually the tabtrigger is the name of the snippet.
 
 
-## iii. <a name="less"></a> [LESS](https://github.com/danro/LESS-sublime)
+## v. <a name="less"></a> [LESS](https://github.com/danro/LESS-sublime)
 By [Dan Rogers](http://danro.net) - **Install through Package Control**
 
 LESS syntax highlighting for Sublime Text 2
 
 
-## iv. <a name="scss"></a> [SCSS](https://github.com/kuroir/SCSS.tmbundle/tree/SublimeText2)
+## vi. <a name="scss"></a> [SCSS](https://github.com/kuroir/SCSS.tmbundle/tree/SublimeText2)
 By [Mario "Kuroir" Ricalde](https://github.com/kuroir) - **Install through Package Control**
 
 SCSS syntax highlighting for Sublime Text 2
 
 
-## v. <a name="fetch"></a> [Nettuts+ Fetch](http://net.tutsplus.com/articles/news/introducing-nettuts-fetch/)
+## vii. <a name="fetch"></a> [Nettuts+ Fetch](http://net.tutsplus.com/articles/news/introducing-nettuts-fetch/)
 By [Nettuts+](http://net.tutsplus.com/) - **Install through Package Control**
 
 Fetch the latest version of remote files and zip packages.
@@ -252,31 +245,31 @@ Fetch the latest version of remote files and zip packages.
 Type `fetch` into Command palette
 
 
-## vi. <a name="editorconfig"></a> [EditorConfig](http://editorconfig.org/)
+## viii. <a name="editorconfig"></a> [EditorConfig](http://editorconfig.org/)
 **Install through Package Control**
 
 EditorConfig helps developers define and maintain consistent coding styles between different editors and IDEs. The EditorConfig project consists of a file format for defining coding styles and a collection of text editor plugins that enable editors to read the file format and adhere to defined styles. EditorConfig files are easily readibly and they work nicely with version control systems.
 
 
-## vii. <a name="placeholders"></a> [Placeholders](https://github.com/mrmartineau/Placeholders)
+## ix. <a name="placeholders"></a> [Placeholders](https://github.com/mrmartineau/Placeholders)
 By [Zander Martineau](http://martineau.tv) - **Install through Package Control**
 
 Placeholder HTML & content (lorem ipsum) package for Sublime Text 2. Browse [the repository](https://github.com/mrmartineau/Placeholders) to see what snippets are included, usually the tabtrigger is the name of the snippet.
 
 
-## viii. <a name="prefixr"></a> [Prefixr](http://wbond.net/sublime_packages/prefixr)
+## x. <a name="prefixr"></a> [Prefixr](http://wbond.net/sublime_packages/prefixr)
 By [Will Bond](http://wbond.net/) - **Install through Package Control**
 
 Cross-browser CSS3 in seconds. This package runs CSS through the Prefixr.com API. [Nettuts+ introduction to Prefixr](http://net.tutsplus.com/articles/news/cross-browser-css-in-seconds-with-prefixr/)
 
 
-## viii. <a name="colorhighlighter"></a> [ColorHighlighter](https://github.com/Monnoroch/ColorHighlighter)
+## x. <a name="colorhighlighter"></a> [ColorHighlighter](https://github.com/Monnoroch/ColorHighlighter)
 By [Monnoroch](https://github.com/Monnoroch/) - **Install through Package Control**
 
 ColorHighlighter underlays selected hexadecimal colorcodes (like "#FFFFFF") with their real color.
 
 
-## ix. <a name="gist"></a> [Gist](https://github.com/condemil/Gist)
+## xi. <a name="gist"></a> [Gist](https://github.com/condemil/Gist)
 By [Dmitry Budaev](https://github.com/condemil/) - **Install through Package Control**
 
 Create new Gists from selected text & print existing Gists from Github.com. [Nettuts+ Sexy Code Snippet Management With Gists](http://net.tutsplus.com/tutorials/tools-and-tips/sexy-code-snippet-management-with-gists/).
@@ -292,7 +285,7 @@ If you're using OS X and have a keychain entry for github.com, no configuration 
 `"https_proxy": http://user:pass@proxy:port` You can enter https proxy here. Format: "http://user:pass@proxy:port"
 
 
-## ix. <a name="csscomb"></a> [CSS Comb](https://csscomb.com)
+## xi. <a name="csscomb"></a> [CSS Comb](https://csscomb.com)
 
 A tool for sorting CSS properties in specific order. This is really useful if you prefer to sort your CSS properties not alphabetically but by group.
 
