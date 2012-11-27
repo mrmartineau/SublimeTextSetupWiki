@@ -285,7 +285,7 @@ If you're using OS X and have a keychain entry for github.com, no configuration 
 `"https_proxy": http://user:pass@proxy:port` You can enter https proxy here. Format: "http://user:pass@proxy:port"
 
 
-## xi. <a name="csscomb"></a> [CSS Comb](https://csscomb.com)
+## xi. <a name="csscomb"></a> [CSS Comb](http://csscomb.com)
 
 A tool for sorting CSS properties in specific order. This is really useful if you prefer to sort your CSS properties not alphabetically but by group.
 
