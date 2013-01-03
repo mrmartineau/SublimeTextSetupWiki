@@ -167,8 +167,8 @@ Dead-simple alignment of multi-line selections and multiple selections.
 ### Keybinding
 `ctrl+alt+a` on Windows and Linux, or `cmd+ctrl+a` on OS X.
 
-## x. <a name="advancednewfile"></a>[AdvancedNewFile](https://github.com/xobb1t/Sublime-AdvancedNewFile)
-By [Dima Kukushkin](https://github.com/xobb1t/) - **Install through Package Control**
+## x. <a name="advancednewfile"></a>[AdvancedNewFile](https://github.com/skuroda/Sublime-AdvancedNewFile)
+By [skuroda](https://github.com/xobb1t/) - **Install through Package Control**
 
 Easily & quickly create new files & folders. Nettuts+ have created a quick screencast for the plugin, [view it here](http://net.tutsplus.com/tutorials/tools-and-tips/lightning-fast-folder-and-file-creation-in-sublime-text-2/).
 
