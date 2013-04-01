@@ -11,3 +11,6 @@ Go to http://www.sublimetext.com/2 to download & install. If you have already pu
 * [Source control and FTP packages](https://github.com/mrmartineau/SublimeTextSetup/wiki/Source-control-and-FTP-packages)
 
 View all [pages here](https://github.com/mrmartineau/SublimeTextSetup/wiki/_pages)
+
+### Suggestions, amendments or improvements
+If you think that I have missed an important package, made a mistake, or another packages has superseeded one on this list, I would love to know. Please create a [new issue](https://github.com/mrmartineau/SublimeTextSetup/issues/new) with a link to the new package. 
