@@ -1,15 +1,39 @@
 [
+	{ "keys": ["super+t"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+	
+	// Bookmarks
+	{ "keys": ["f1"], "command": "toggle_bookmark" },
+	{ "keys": ["f2"], "command": "prev_bookmark" },
+	{ "keys": ["f3"], "command": "next_bookmark" },
+	
+	// Tab sizes
+	{ "keys": ["alt+ctrl+1"], "command": "set_setting", "args": {"setting": "tab_size", "value": 1} },
+	{ "keys": ["alt+ctrl+2"], "command": "set_setting", "args": {"setting": "tab_size", "value": 2} },
+	{ "keys": ["alt+ctrl+3"], "command": "set_setting", "args": {"setting": "tab_size", "value": 3} },
+	{ "keys": ["alt+ctrl+4"], "command": "set_setting", "args": {"setting": "tab_size", "value": 4} },
+	
+	// Alignment plugin
 	{ "keys": ["super+alt+shift+a"], "command": "alignment" },
 	{ "keys": ["super+alt+ctrl+a"], "command": "alignment" },
 
 	{ "keys": ["super+shift+alt+u"], "command": "UrlQuoteSelection" },
 
 	// A macro command created by Zander Martineau
-	{ "keys": ["super+shift+alt+s"], "command": "run_macro_file", "args": {"file": "Packages/User/MrMartineau/Spaces to Tabs.sublime-macro"} },
+	{ "keys": ["super+shift+alt+s"], "command": "run_macro_file", "args": {"file": "Packages/User/[yourusername]/Spaces to Tabs.sublime-macro"} },
 
 	// Large comment block shortcut
-	{ "keys": ["ctrl+shift+b"], "command": "insert_snippet", "args": {"contents": "${TM_COMMENT_START/s*$//} ====${1/./=/g}====${TM_COMMENT_END/^s*(.+)/ $1/}\n${TM_COMMENT_START/s*$//} === ${1:Banner} ===${TM_COMMENT_END/^s*(.+)/ $1/}\n${TM_COMMENT_START/s*$//} ====${1/./=/g}====${TM_COMMENT_END/^s*(.+)/ $1/}"}},
+	{ "keys": ["ctrl+shift+b"], "command": "insert_snippet", "args": {"contents": "${TM_COMMENT_START/s*$//}====${1/./=/g}====${TM_COMMENT_END/^s*(.+)/ $1/}\n${TM_COMMENT_START/s*$//}=== ${1:Banner} ===${TM_COMMENT_END/^s*(.+)/ $1/}\n${TM_COMMENT_START/s*$//}====${1/./=/g}====${TM_COMMENT_END/^s*(.+)/ $1/}"}},
 
+	// Medium comment block shortcut
+	{ "keys": ["ctrl+shift+c"], "command": "insert_snippet", "args": {"contents": "${TM_COMMENT_START/s*$//}=== ${1:Banner} ===${TM_COMMENT_END/^s*(.+)/ $1/}\n${TM_COMMENT_START/s*$//}====${1/./=/g}====${TM_COMMENT_END/^s*(.+)/ $1/}"}},
+
+	// Small comment block shortcut
+	{ "keys": ["ctrl+shift+x"], "command": "insert_snippet", "args": {"contents": "${TM_COMMENT_START/s*$//}=== ${1:Banner} ===${TM_COMMENT_END/^s*(.+)/ $1/}"}},
+	
+	// Move Text
+	{ "keys": ["super+ctrl+left"], "command": "move_text_left" },
+	{ "keys": ["super+ctrl+right"], "command": "move_text_right" },
+	
 	//Mark and move
 	{ "keys": ["alt+shift+tab"], "command": "mark_and_move_window_select" },
 	{ "keys": ["alt+tab"], "command": "mark_and_move_window_toggle" },
@@ -17,9 +41,6 @@
 	{ "keys": ["alt+m"], "command": "mark_and_move_next" },
 	{ "keys": ["alt+shift+m"], "command": "mark_and_move_prev" },
 	{ "keys": ["ctrl+shift+m"], "command": "mark_and_move_recall" },
-	{ "keys": ["ctrl+alt+m"], "command": "mark_and_move_clear" },
-	// Move Text
-	{ "keys": ["super+ctrl+left"], "command": "move_text_left" },
-	{ "keys": ["super+ctrl+right"], "command": "move_text_right" }
+	{ "keys": ["ctrl+alt+m"], "command": "mark_and_move_clear" }
 
 ]
