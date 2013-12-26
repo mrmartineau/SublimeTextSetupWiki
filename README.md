@@ -10,6 +10,8 @@ Go to http://www.sublimetext.com/2 to download & install. If you have already pu
 * [Front end specific Packages](https://github.com/mrmartineau/SublimeTextSetup/wiki/Front-end-specific-Packages)
 * [Source control and FTP packages](https://github.com/mrmartineau/SublimeTextSetup/wiki/Source-control-and-FTP-packages)
 * [General Sublime Text resources and info](https://github.com/mrmartineau/SublimeTextSetup/wiki/General-Sublime-Text-resources-and-info)
+* [Colour Schemes](https://github.com/mrmartineau/SublimeTextSetup/wiki/Colour-Schemes)
+* [Interface Themes](https://github.com/mrmartineau/SublimeTextSetup/wiki/Interface-Themes)
 
 View all [pages here](https://github.com/mrmartineau/SublimeTextSetup/wiki/_pages)
 
