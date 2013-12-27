@@ -1,10 +1,8 @@
-# Sublime Text Setup
-#### This project's aim is to enable people to get started with Sublime Text much more quickly. Choose a page below that applies to you to see a list of tried and tested packages.
+# Sublime Text Setup Wiki
+#### This project's aim is to enable people to get started with Sublime Text much more quickly by showing which the best plugins are to use. Plugins can turn Sublime from a good text editor into a true power house, or IDE, for almost any writing/coding task.
+#### Start with the [essential packages](https://github.com/mrmartineau/SublimeTextSetup/wiki/Essential-packages), you will definitely want to install Package Control (so that installing other plugins are much easier), then browse through the other guides.
 
-#### Install Sublime Text
-Go to http://www.sublimetext.com/2 to download & install. If you have already purchased Sublime Text 2 you can try out version 3 at http://www.sublimetext.com/3
-
-#### Package types:
+##### Package/plugin types:
 * [Essential packages](https://github.com/mrmartineau/SublimeTextSetup/wiki/Essential-packages)
 * [General programming packages](https://github.com/mrmartineau/SublimeTextSetup/wiki/General-programming-packages)
 * [Front end specific Packages](https://github.com/mrmartineau/SublimeTextSetup/wiki/Front-end-specific-Packages)
@@ -14,6 +12,9 @@ Go to http://www.sublimetext.com/2 to download & install. If you have already pu
 * [Interface Themes](https://github.com/mrmartineau/SublimeTextSetup/wiki/Interface-Themes)
 
 View all [pages here](https://github.com/mrmartineau/SublimeTextSetup/wiki/_pages)
+
+#### Install Sublime Text
+Go to http://www.sublimetext.com/2 to download & install. If you have already purchased Sublime Text 2 you can try out version 3 at http://www.sublimetext.com/3
 
 ***
 
