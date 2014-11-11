@@ -1,6 +1,7 @@
 # Sublime Text Setup Wiki
 #### This project's aim is to enable people to get started with Sublime Text much more quickly by showing which the best plugins are to use. Plugins can turn Sublime from a good text editor into a true power house, or IDE, for almost any writing/coding task.
 #### Start with the [essential packages](https://github.com/mrmartineau/SublimeTextSetup/wiki/Essential-packages), you will definitely want to install Package Control (so that installing other plugins are much easier), then browse through the other guides.
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/mrmartineau/SublimeTextSetupWiki?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ### [Go to the wiki >>](https://github.com/mrmartineau/SublimeTextSetup/wiki/)
 
